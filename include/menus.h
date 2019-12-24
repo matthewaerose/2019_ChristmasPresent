@@ -3,10 +3,10 @@
 
 using namespace std;
 
-#ifndef MENU
-#define MENU
+#ifndef MENUS_H
+#define MENUS_H
 
-class Menu{
+class Menus{
     private:
     string banner = \
     "\n\n\nMerry Christmas Davis!\n"\
@@ -16,7 +16,7 @@ class Menu{
     public:
     
     void printBanner();
-
+    void makeSpaces(int count);
     
 
 };
