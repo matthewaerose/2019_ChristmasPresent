@@ -1,0 +1,4 @@
+theGift
+*.o
+*.json
+.vscode
