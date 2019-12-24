@@ -1,4 +1,5 @@
 theGift
-*.o
 *.json
 .vscode
+bin
+obj
