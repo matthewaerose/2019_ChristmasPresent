@@ -5,5 +5,6 @@ int Roofing::getNail() {
 }
 
 int Roofing::getPanel() {
-    return -- this->panels;
+    this->panels --;
+    return this->panels;
 }

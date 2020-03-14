@@ -5,6 +5,7 @@
 
 #include "menus.h"
 #include "roofing.h"
+#include "story.h"
 
 using namespace std;
 
@@ -13,6 +14,7 @@ int main (int argc, char ** argv) {
     string empty = "";
 
     Menus *menus = new Menus();
+    Story *story = new Story();
     Roofing *roof = new Roofing();
 
     menus->printBanner();
@@ -24,14 +26,9 @@ int main (int argc, char ** argv) {
 
     menus->makeSpaces(1000);
     
-    cout << "You look around and realize you've arrived at your vacation home!" << endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+    story->start();
 
-    cout << "You start to unpack your tools and equipment." << endl;
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-
-    
 
 
     
