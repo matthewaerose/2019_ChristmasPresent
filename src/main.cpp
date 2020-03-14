@@ -27,10 +27,6 @@ int main (int argc, char ** argv) {
     menus->makeSpaces(1000);
     
     story->start();
-
-
-
-
     
     return 0;
 }
