@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <limits>
 
 #include "menus.h"
 
@@ -24,7 +25,7 @@ int Menus::printMenuAndGetItem(list<string> const &items) {
 
     cout << "What do you do ?\n";
     cin >> item;
-    do{
+    do {
         if(cin.fail()) {
             cin.clear();
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
