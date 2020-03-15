@@ -15,9 +15,9 @@ void Menus::makeSpaces(int count) {
 }
 
 int Menus::printMenuAndGetItem(list<string> const &items) {
-
     int count = 1;
     int item = 0;
+    
     for (auto const& i: items) {
         std::cout << count << ". " << i << "\n";
         count ++;

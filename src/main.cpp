@@ -19,14 +19,13 @@ int main (int argc, char ** argv) {
 
     menus->printBanner();
 
-    do 
-    {
-    cout << '\n' << "Press Enter to continue...";
+    do {
+      cout << '\n' << "Press Enter to continue...";
     } while (cin.get() != '\n');
 
     menus->makeSpaces(1000);
-    
+
     story->start();
-    
+
     return 0;
 }
